@@ -1,0 +1,252 @@
+/* 6KVt CSS 
+ Create by TM */
+@font-face {
+	font-family: Proxima Nova;
+	scr: local("Proxima Nova"),
+		 local("ProximaNova"),	
+		 url(/fonts/proximanova-regular.otf) format("opentype");
+}
+
+@font-face {
+	font-family: Proxima Nova;
+	scr: local("Proxima Nova Bold"),
+		 local("ProximaNova-Bold"),	
+		 url(/fonts/proximanova-bold.otf) format("opentype");
+	font-style: bold;
+}
+
+@font-face {
+	font-family: Proxima Nova;
+	scr: local("Proxima Nova Extrabold"),
+		 local("ProximaNova-Extrabold"),	
+		 url(/fonts/proximanova-extrabold.otf) format("opentype");
+	font-style: extrabold;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 1115px;
+
+	/*width: 80%;*/
+	background-color: #f4f4f4;
+	/*background-image: url("../img/bg.png");*/
+	background-repeat: repeat-x;
+	font-family: Proxima Nova, Tahoma, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	/*align-content:center;
+	text-align: center;*/
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+a{
+	color: #ff9001;
+}
+
+orange{
+	color: #ffaa01;
+}
+
+#top{
+	/*min-width: 1115px;*/
+	height: 1027px;
+	background-color: #0e1217;
+	background-image: url("../img/bg-top.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+.logo{
+
+	height: 91px;
+	width: 296px;
+	margin-top: 29px auto;
+	margin-left: 10%;
+	float: left;
+	background-image: url("../img/logo.png");
+	z-index: 100;
+}
+
+.phone{
+	height: 48px;
+	width: 250px;
+	margin-top: 29px;
+	margin-right: 10%;
+	float: right;
+	background: url("../img/phone.png");
+	background-repeat: no-repeat;
+}
+
+.link{
+	margin: 30px;
+	text-decoration: underline; 	
+}
+
+.number{
+	margin: 30px;
+	font-size: 25px; 
+	font-style: bold; 
+	color: #ebebeb;
+}
+
+.title-text{
+	margin-top: 222px;
+	margin-left: 10%;
+	font-size: 44px; 
+	text-transform: uppercase; 
+	color: #ebebeb;
+}
+
+.gen{
+	text-align: center;
+}
+
+.button-top{
+	height: 165px;
+	width: 531px;
+	margin-left: 35%;
+	margin-right: 35%; 
+	background-image: url("../img/button-top.png");
+	font-size: 17px; 
+	text-transform: uppercase; 
+	color: #ff9001;
+}
+
+.text-top{
+	margin: 50px;
+}
+
+.button-dill{
+	height: 56px;
+	width: 471px;
+	margin-right: : 10%;
+	margin-top: 222px;
+	float: right;
+	background-image: url("../img/button-dill.png");
+}
+
+#compare{
+	height: 2767px;
+	/*margin-top: -22px;*/
+	z-index: 9;
+}
+
+#advantage{
+	height: 1370px;
+}
+
+#protect{
+	height: 771px; 
+}
+
+#causes{
+	height: 849px;
+	background-color: #ffc530;
+	background-image: url("../img/bg-causes.png");
+}
+
+#compare2{
+	height: 2136px;
+}
+
+#company{
+	height: 1020px;
+}
+
+#service{
+	height: 396px;
+}
+
+#garanty{
+	height: 230px;
+	background-color: #1b2128;
+	font-size: 20px; 
+	color: #fff;
+}
+
+.garanty{
+	background-image: url("../img/garanty.png");
+	background-repeat: no-repeat;
+	background-position:  0% 35%;
+	margin-top: 10px;
+	margin-left: 15%;
+	padding: 10px;
+}
+
+.top-text-garanty{
+	font-size: 24px; 
+	text-transform: uppercase;
+	color: #fff;
+	
+}
+
+.text-garanty, .top-text-garanty{
+	
+	margin-left: 4%;
+	padding: 15px;
+}
+
+#location{
+	height: 716px;
+}
+
+#footer{
+	height: 170px;
+	background-color: #1b2128;
+
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
