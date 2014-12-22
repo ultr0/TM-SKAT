@@ -48,18 +48,18 @@ table {
 }
 
 /* Начало стилей */
-/*@font-face {
+@font-face {
 	font-family: Proxima Nova;
 	scr: local("Proxima Nova"),
 		 local("ProximaNova"),	
-		 url("fonts/proximanova-regular.otf") format("opentype");
+		 url(fonts/ProximaNova-Reg.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Proxima Nova;
 	scr: local("Proxima Nova Bold"),
 		 local("ProximaNova-Bold"),	
-		 url("fonts/proximanova-bold.otf") format("opentype");
+		 url(fonts/ProximaNova-Bold.otf) format("opentype");
 	font-style: bold;
 }
 
@@ -67,26 +67,8 @@ table {
 	font-family: Proxima Nova;
 	scr: local("Proxima Nova Extrabold"),
 		 local("ProximaNova-Extrabold"),	
-		 url("fonts/proximanova-extrabold.otf") format("opentype");
+		 url(fonts/ProximaNova-Xbold.otf) format("opentype");
 	font-style: extrabold;
-}*/
-
-@font-face {
-  font-family: Proxima Nova Light;
-  src: url(fonts/proximanova-light.otf);
-  /* font-weight, font-style ==> �� ��������� normal */
-}
-
-@font-face {
-  font-family: Proxima Nova;
-  src: url(fonts/ProximaNova-Reg.otf);
-  /* font-weight, font-style ==> �� ��������� normal */
-}
-
-@font-face {
-  font-family: Proxima Nova;
-  src: url(fonts/proximanova-bold.otf);
-  font-style: bold;
 }
 
 
