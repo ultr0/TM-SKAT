@@ -273,6 +273,12 @@ orange{
 	background-image: url("../img/button-dill.png");
 }
 
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+button:focus {outline:0;}
+
 /* comparison area */
 #compare{
 	height: 2767px;
@@ -287,6 +293,9 @@ orange{
 	text-transform: uppercase; 
 	color: #181818;
 	font-weight: normal;
+}
+#compare > h1 {
+	margin-bottom: 67px;
 }
 
 .generator-card {
@@ -380,6 +389,77 @@ article td {
 	background: url('../img/comparison-area-closest-dealers.png');
 	background-repeat: no-repeat;
 }
+.parameter-selector {
+	width: 569px;
+	height: 207px;
+	background: url('../img/parameter-selector.png');
+	background-repeat: no-repeat;
+	color: #181818;
+	font-size: 22px;
+}
+.parameter-selector header {
+	color: #ff9000;
+	font-size: 25px;
+	font-weight: bold;
+	height: 75px;
+}
+.parameter-selector header .selection-mask {
+	margin-top: -89px;
+	margin-left: 270px;
+	width: 155px;
+	height: 92px;
+	background: url('../img/parameter-selector-selection-mask.png');
+	background-repeat: no-repeat;
+	
+    /* For Safari 3.1 to 6.0 */
+    -webkit-transition-property: margin-left;
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.0s;
+    /* Standard syntax */
+    transition-property: margin-left;
+    transition-duration: 0.1s;
+    transition-timing-function: ease;
+    transition-delay: 0.0s;
+}
+.parameter-selector .selection-mask.phase-three, .parameter-selector .selection-mask.diesel {
+	margin-left: 405px;
+}
+.parameter-selector header  strong {
+	line-height: 75px;
+	margin-left: 32px;
+}
+.parameter-selector header .phase, .parameter-selector header .fuel {
+	font-size: 20px;
+	font-weight: bold;
+	background: none;
+	border: none;
+	cursor: pointer;
+	
+	line-height: 75px;
+	margin-top: -75px;
+	float: left;
+	
+	color: #fff;
+	text-decoration: underline;
+}
+.parameter-selector header .phase[selected], .parameter-selector header .fuel[selected] {
+	color: #000;
+	text-decoration: none;
+	margin-top: -83px;
+}
+.parameter-selector .phase:nth-of-type(1),.parameter-selector .fuel:nth-of-type(1) {
+	margin-left: 305px;
+}
+.parameter-selector .phase:nth-of-type(2),.parameter-selector .fuel:nth-of-type(2) {
+	margin-left: 440px;
+}
+
+.parameter-selector article {
+	margin-left: 32px;
+	margin-top: 27px;
+}
+
 /* comparison area end */
 
 #advantage{

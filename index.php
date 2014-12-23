@@ -49,39 +49,41 @@
 	<div id="compare"> 
 		<h1><b>Основные параметры генераторов</b></h1>
 		
-		<table>
+		<table class="centered">
 			<tr>
 				<td>
-					<div class="parameter-selector">
+					<div class="parameter-selector phase-selector">
 						<header>
-							ФАЗНОСТЬ:
+							<strong>ФАЗНОСТЬ:</strong>
+							<div class="selection-mask"></div>
 							<button class="phase">1 ФАЗА</button>
 							<button class="phase">3 ФАЗЫ</button>
 						</header>
-						<article class="first">
+						<article class="phase-one">
 							Однофазный генератор подойдёт для обычных приборов 220В
-						</article class="second">
-						<article>
+						</article>
+						<article class="phase-three">
 							Трехфазный необходим, если вы собираетесь подключать оборудование на 380В
 						</article>
 					</div>
 				</td>
 				<td class="middle-space"></td>
 				<td>
-					<div class="parameter-selector">
+					<div class="parameter-selector fuel-selector">
 						<header>
-							ТИП ТОПЛИВА:
+							<strong>ТИП ТОПЛИВА:</strong>
+							<div class="selection-mask"></div>
 							<button class="fuel">БЕНЗИН</button>
 							<button class="fuel">ДИЗЕЛЬ</button>
 						</header>
-						<article class="first">
-							– Запуск до -15°C
-							– Легче и компактнее
+						<article class="gas">
+							– Запуск до -15°C<br/>
+							– Легче и компактнее<br/>
 							– Лучше переносит частые запуски
 						</article>
-						<article class="second">
-							– Запуск до -0°C
-							– Немного экономичней
+						<article class="diesel">
+							– Запуск до -0°C<br/>
+							– Немного экономичней<br/>
 							– Любит большую и постоянную нагрузку
 						</article>
 					</div>
