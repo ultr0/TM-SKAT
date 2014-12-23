@@ -18,7 +18,7 @@
 	<script type="text/javascript" src="js/jquery.dropdown.js"></script>
 	
 
-	<title>6КВт</title>
+	<title>СКАТ Хабаровск | Надежные и практичные генераторы SKAT 6 КВт</title>
 </head>
 
 <body>

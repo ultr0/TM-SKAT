@@ -50,23 +50,23 @@ table {
 /* Начало стилей */
 @font-face {
 	font-family: Proxima Nova;
-	scr: local("Proxima Nova"),
-		 local("ProximaNova"),	
+	scr: /*local("Proxima Nova"),
+		 local("ProximaNova"),	*/
 		 url(fonts/ProximaNova-Reg.otf) format("opentype");
 }
 
 @font-face {
 	font-family: Proxima Nova;
-	scr: local("Proxima Nova Bold"),
-		 local("ProximaNova-Bold"),	
+	scr: /*local("Proxima Nova Bold"),
+		 local("ProximaNova-Bold"),	*/
 		 url(fonts/ProximaNova-Bold.otf) format("opentype");
 	font-style: bold;
 }
 
 @font-face {
 	font-family: Proxima Nova;
-	scr: local("Proxima Nova Extrabold"),
-		 local("ProximaNova-Extrabold"),	
+	scr: /*local("Proxima Nova Extrabold"),
+		 local("ProximaNova-Extrabold"),	*/
 		 url(fonts/ProximaNova-Xbold.otf) format("opentype");
 	font-style: extrabold;
 }
@@ -301,6 +301,7 @@ orange{
 	margin: 100px auto 0;
 	background-image: url("../img/7causes-1.png");
 	background-repeat: no-repeat;
+	background-position-x: 65px;
 	
 }
 
@@ -318,6 +319,9 @@ orange{
 	position: absolute;
 	bottom:1;
 
+}
+.image-level1 p {
+	margin-left: 65px;
 }
 
 #compare2{
