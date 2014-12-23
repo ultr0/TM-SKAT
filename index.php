@@ -56,18 +56,124 @@
 							<button>1 ФАЗА</button>
 							<button>3 ФАЗЫ</button>
 						</header>
+						<article class="first">
+							Однофазный генератор подойдёт для обычных приборов 220В
+						</article class="second">
 						<article>
+							Трехфазный необходим, если вы собираетесь подключать оборудование на 380В
 						</article>
 					</div>
 				</td>
 				<td></td>
 				<td>
-					<div class="parameter-selector">–</div>
+					<div class="parameter-selector">
+						<header>
+							ТИП ТОПЛИВА:
+							<button>БЕНЗИН</button>
+							<button>ДИЗЕЛЬ</button>
+						</header>
+						<article class="first">
+							– Запуск до -15°C
+							– Легче и компактнее
+							– Лучше переносит частые запуски
+						</article>
+						<article class="second">
+							– Запуск до -0°C
+							– Немного экономичней
+							– Любит большую и постоянную нагрузку
+						</article>
+					</div>
 				</td>
 			</tr>
+			
+			
 		</table>
-		<!--<h1><b>1-фазные бензиновые</b> 6 кВт генераторы</h1>
-		<table>
+		
+		<div class="generators-cards-with-comparison phase-1 gas">
+			<h1><b>1-фазные бензиновые</b> 6 кВт генераторы</h1>
+			
+			<div class="generator-card УГБ-6000">
+				<header>УГБ-6000</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Бензиновый генератор 6 кВт с ручным пуском</div>
+				</article>
+			</div>
+			<div class="generator-card УГБ-6000E">
+				<header>УГБ-6000E</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Бензиновый генератор 6 кВт с электропуском</div>
+				</article>
+			</div>
+			<div class="generator-card УГБ-6000Авто">
+				<header>УГБ-6000Авто</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Бензиновый генератор 6 кВт с автозапуском</div>
+				</article>
+			</div>
+			<div class="generator-card УГБ-6000Basic">
+				<header>УГБ-6000Basic</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Бензиновый генератор 6 кВт мобильный и компактный</div>
+				</article>
+			</div>
+			<div class="comparison-table"></div>
+		</div>
+		<div class="generators-cards-with-comparison phase-3 gas">
+			<h1><b>3-фазные бензиновые</b> 6 кВт генераторы</h1>
+			
+			<div class="generator-card УГБ-6000T-Basic">
+				<header>УГБ-6000T Basic</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Трехфазный бензиновый генератор 6 кВт мобильный и компактный</div>
+				</article>
+			</div>
+			<div class="generator-card УГБ-6000ET6KVT">
+				<header>УГБ-6000ET/ 6 кВт</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Трехфазный бензиновый генератор 6 кВт - уникальная модель: 6 кВт на 3 фазах; 6 кВт на 1 фазе</div>
+				</article>
+			</div>
+			<div class="comparison-table"></div>
+		</div>
+		<div class="generators-cards-with-comparison phase-1 diesel">
+			<h1><b>1-фазные дизельные</b> 6 кВт генераторы</h1>
+			
+			<div class="generator-card УГД-6000E">
+				<header>УГД-6000E</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Дизельный генератор 6 кВт с электрозапуском</div>
+				</article>
+			</div>
+			<div class="generator-card УГД-6000EK">
+				<header>УГД-6000EK</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Дизельный генератор 6 кВт в шумозащитном кожухе</div>
+				</article>
+			</div>
+			<div class="comparison-table"></div>
+		</div>
+		<div class="generators-cards-with-comparison phase-3 diesel">
+			<h1><b>3-фазный дизельный</b> 6 кВт генератор</h1>
+			
+			<div class="generator-card УГД-6000ET-3KVT">
+				<header>УГД-6000ET/ 3кВт</header>
+				<article>
+					<div class="generator-image"></div>
+					<div class="generator-description">Трехфазный дизельный генератор 6 кВт - уникальная модель: 6 кВт на 3 фазах; 3 кВт на 1 фазе</div>
+				</article>
+			</div>
+			<div class="comparison-table"></div>
+		</div>
+		
+		<!--<table>
 			<tr class="title-table">
 				<th class="main-title-table">сравнение <br> моделей</th>
 				<th>Стандартная <br> модель<br><b>Угб-6000</b></th>
