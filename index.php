@@ -17,6 +17,7 @@
 	<script src="js/modernizr.custom.63321.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.dropdown.js"></script>
+	<script type="text/javascript" src="js/lp.logic.js"></script>
 	
 
 	<title>СКАТ Хабаровск | Надежные и практичные генераторы SKAT 6 КВт</title>
@@ -54,8 +55,8 @@
 					<div class="parameter-selector">
 						<header>
 							ФАЗНОСТЬ:
-							<button>1 ФАЗА</button>
-							<button>3 ФАЗЫ</button>
+							<button class="phase">1 ФАЗА</button>
+							<button class="phase">3 ФАЗЫ</button>
 						</header>
 						<article class="first">
 							Однофазный генератор подойдёт для обычных приборов 220В
@@ -70,8 +71,8 @@
 					<div class="parameter-selector">
 						<header>
 							ТИП ТОПЛИВА:
-							<button>БЕНЗИН</button>
-							<button>ДИЗЕЛЬ</button>
+							<button class="fuel">БЕНЗИН</button>
+							<button class="fuel">ДИЗЕЛЬ</button>
 						</header>
 						<article class="first">
 							– Запуск до -15°C
@@ -90,7 +91,7 @@
 			
 		</table>
 		
-		<div class="generators-cards-with-comparison phase-1 gas">
+		<div class="generators-cards-with-comparison phase-one gas">
 			<h1><b>1-фазные бензиновые</b> 6 кВт генераторы</h1>
 			
 			<table class="generators-cards-centered-block">
@@ -171,7 +172,7 @@
 			</table>
 			<div class="comparison-table"></div>
 		</div>
-		<div class="generators-cards-with-comparison phase-3 gas">
+		<div class="generators-cards-with-comparison phase-three gas">
 			<h1><b>3-фазные бензиновые</b> 6 кВт генераторы</h1>
 			
 			<table class="generators-cards-centered-block">
@@ -215,7 +216,7 @@
 			</table>
 			<div class="comparison-table"></div>
 		</div>
-		<div class="generators-cards-with-comparison phase-1 diesel">
+		<div class="generators-cards-with-comparison phase-one diesel">
 			<h1><b>1-фазные дизельные</b> 6 кВт генераторы</h1>
 			
 			<table class="generators-cards-centered-block">
@@ -259,7 +260,7 @@
 			</table>
 			<div class="comparison-table"></div>
 		</div>
-		<div class="generators-cards-with-comparison phase-3 diesel">
+		<div class="generators-cards-with-comparison phase-three diesel">
 			<h1><b>3-фазный дизельный</b> 6 кВт генератор</h1>
 			
 			<div class="generators-cards-centered-block generator-card УГД-6000ET-3KVT">

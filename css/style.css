@@ -297,6 +297,7 @@ orange{
 	color: black;
 	font-family: Proxima Nova;
 	font-weight: bold;
+	margin-bottom: 30px;
 }
 .generator-card > header {
 	font-size: 22px;
@@ -335,7 +336,7 @@ article td {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 75px;
-	margin-bottom: 106px;
+	margin-bottom: 75px;
 }
 
 .middle-space {
@@ -346,24 +347,25 @@ article td {
 	margin-left: auto;
 	margin-right: auto;
 }
-.phase-1.gas > .comparison-table {
+.phase-one.gas > .comparison-table {
 	width: 1030px;
 	height: 1075px;
 	background: url('../img/comparison-table-1-gas.jpg');
+	background-repeat: no-repeat;
 }
-.phase-3.gas > .comparison-table {
+.phase-three.gas > .comparison-table {
 	width: 1030px;
 	height: 1185px;
 	background: url('../img/comparison-table-3-gas.jpg');
 	background-repeat: no-repeat;
 }
-.phase-1.diesel > .comparison-table {
+.phase-one.diesel > .comparison-table {
 	width: 1030px;
 	height: 1074px;
 	background: url('../img/comparison-table-1-diesel.jpg');
 	background-repeat: no-repeat;
 }
-.phase-3.diesel > .comparison-table {
+.phase-three.diesel > .comparison-table {
 	width: 1030px;
 	height: 1133px;
 	background: url('../img/comparison-table-3-diesel.jpg');
