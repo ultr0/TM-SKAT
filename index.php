@@ -64,7 +64,7 @@
 						</article>
 					</div>
 				</td>
-				<td></td>
+				<td class="middle-space"></td>
 				<td>
 					<div class="parameter-selector">
 						<header>
@@ -92,82 +92,188 @@
 		<div class="generators-cards-with-comparison phase-1 gas">
 			<h1><b>1-фазные бензиновые</b> 6 кВт генераторы</h1>
 			
-			<div class="generator-card УГБ-6000">
-				<header>УГБ-6000</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Бензиновый генератор 6 кВт с ручным пуском</div>
-				</article>
-			</div>
-			<div class="generator-card УГБ-6000E">
-				<header>УГБ-6000E</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Бензиновый генератор 6 кВт с электропуском</div>
-				</article>
-			</div>
-			<div class="generator-card УГБ-6000Авто">
-				<header>УГБ-6000Авто</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Бензиновый генератор 6 кВт с автозапуском</div>
-				</article>
-			</div>
-			<div class="generator-card УГБ-6000Basic">
-				<header>УГБ-6000Basic</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Бензиновый генератор 6 кВт мобильный и компактный</div>
-				</article>
-			</div>
+			<table class="generators-cards-centered-block">
+				<tr>
+					<td>
+						<div class="generator-card УГБ-6000">
+							<header>УГБ-6000</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Бензиновый генератор 6 кВт с ручным пуском</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+					<td class="middle-space"></td>
+					<td>
+						<div class="generator-card УГБ-6000E">
+							<header>УГБ-6000E</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Бензиновый генератор 6 кВт с электропуском</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="generator-card УГБ-6000Авто">
+							<header>УГБ-6000Авто</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Бензиновый генератор 6 кВт с автозапуском</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+					<td class="middle-space"></td>
+					<td>
+						<div class="generator-card УГБ-6000Basic">
+							<header>УГБ-6000Basic</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Бензиновый генератор 6 кВт мобильный и компактный</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+				</tr>
+			</table>
 			<div class="comparison-table"></div>
 		</div>
 		<div class="generators-cards-with-comparison phase-3 gas">
 			<h1><b>3-фазные бензиновые</b> 6 кВт генераторы</h1>
 			
-			<div class="generator-card УГБ-6000T-Basic">
-				<header>УГБ-6000T Basic</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Трехфазный бензиновый генератор 6 кВт мобильный и компактный</div>
-				</article>
-			</div>
-			<div class="generator-card УГБ-6000ET6KVT">
-				<header>УГБ-6000ET/ 6 кВт</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Трехфазный бензиновый генератор 6 кВт - уникальная модель: 6 кВт на 3 фазах; 6 кВт на 1 фазе</div>
-				</article>
-			</div>
+			<table class="generators-cards-centered-block">
+				<tr>
+					<td>
+						<div class="generator-card УГБ-6000T-Basic">
+							<header>УГБ-6000T Basic</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Трехфазный бензиновый генератор 6 кВт мобильный и компактный</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+					<td class="middle-space"></td>
+					<td>
+						<div class="generator-card УГБ-6000ET6KVT">
+							<header>УГБ-6000ET/ 6 кВт</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Трехфазный бензиновый генератор 6 кВт - уникальная модель:<br/> 6 кВт на 3 фазах;<br/> 6 кВт на 1 фазе</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+				</tr>
+			</table>
 			<div class="comparison-table"></div>
 		</div>
 		<div class="generators-cards-with-comparison phase-1 diesel">
 			<h1><b>1-фазные дизельные</b> 6 кВт генераторы</h1>
 			
-			<div class="generator-card УГД-6000E">
-				<header>УГД-6000E</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Дизельный генератор 6 кВт с электрозапуском</div>
-				</article>
-			</div>
-			<div class="generator-card УГД-6000EK">
-				<header>УГД-6000EK</header>
-				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Дизельный генератор 6 кВт в шумозащитном кожухе</div>
-				</article>
-			</div>
+			<table class="generators-cards-centered-block">
+				<tr>
+					<td>
+						<div class="generator-card УГД-6000E">
+							<header>УГД-6000E</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Дизельный генератор 6 кВт с электрозапуском</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+					<td class="middle-space"></td>
+					<td>
+						<div class="generator-card УГД-6000EK">
+							<header>УГД-6000EK</header>
+							<article>
+								<table>
+									<tr>
+										<td>
+											<div class="generator-image"></div>
+										</td>
+										<td>
+											<div class="generator-description">Дизельный генератор 6 кВт в шумозащитном кожухе</div>
+										</td>
+									</tr>
+								</table>
+							</article>
+						</div>
+					</td>
+				</tr>
+			</table>
 			<div class="comparison-table"></div>
 		</div>
 		<div class="generators-cards-with-comparison phase-3 diesel">
 			<h1><b>3-фазный дизельный</b> 6 кВт генератор</h1>
 			
-			<div class="generator-card УГД-6000ET-3KVT">
+			<div class="generators-cards-centered-block generator-card УГД-6000ET-3KVT">
 				<header>УГД-6000ET/ 3кВт</header>
 				<article>
-					<div class="generator-image"></div>
-					<div class="generator-description">Трехфазный дизельный генератор 6 кВт - уникальная модель: 6 кВт на 3 фазах; 3 кВт на 1 фазе</div>
+					<table>
+						<tr>
+							<td>
+								<div class="generator-image"></div>
+							</td>
+							<td>
+								<div class="generator-description">Трехфазный<br/> дизельный<br/> генератор 6 кВт -<br/> уникальная<br/> модель:<br/> 6 кВт на 3 фазах;<br/> 3 кВт на 1 фазе</div>
+							</td>
+						</tr>
+					</table>
 				</article>
 			</div>
 			<div class="comparison-table"></div>

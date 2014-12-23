@@ -110,6 +110,7 @@ a{
 	color: #ff9001;
 }
 
+/*
 table{
 	margin-top: 70px;
 	margin-left: auto;
@@ -134,6 +135,7 @@ th{
 	font-weight: none;
 	border: 1px solid #2F3030;
 }
+*/
 
 tr.title-table{
 	background-color: #000000;
@@ -286,15 +288,54 @@ orange{
 	width: 570px;
 	height: 385px;
 	background: url('../img/generator-card.png');
+	background-repeat: no-repeat;
+	color: black;
+	font-family: Proxima Nova;
+	font-weight: bold;
 }
+.generator-card > header {
+	font-size: 22px;
+	display: block;
+	padding-top: 17px;
+	height: 53px;
+	width: 342px;
+	padding-left: 20px;
+}
+.generator-description {
+	font-size: 20px;
+	left: 370px;
+	width: 165px;
+	height: 329px;
+	margin-right: 35px;
+	line-height: 28px;
+	margin-top: 65px;
+}
+
+article td {
+	vertical-align: top;
+}
+	
 .generator-image {
 	width: 369px;
 	height: 329px;
+	background: url('../img/УГД-6000E.png');
+	background-repeat: no-repeat;
 }
 .УГД-6000E > .generator-image {
-	background: url('../img/generator-card.png');
+	background: url('../img/УГД-6000E.png');
+	background-repeat: no-repeat;
 }
 
+.generators-cards-centered-block {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+	margin-bottom: 106px;
+}
+
+.middle-space {
+	width: 30px;
+}
 
 .comparison-table {
 	margin-left: auto;
@@ -309,18 +350,19 @@ orange{
 	width: 100px;
 	height: 100px;
 	background: green;
-	
+	background-repeat: no-repeat;
 }
 .phase-1.diesel > .comparison-table {
 	width: 1030px;
 	height: 1074px;
 	background: url('../img/comparison-table-1-diesel.jpg');
-	
+	background-repeat: no-repeat;
 }
 .phase-3.diesel > .comparison-table {
 	width: 100px;
 	height: 100px;
 	background: yellow;
+	background-repeat: no-repeat;
 }
 
 .closest-dealers {
@@ -329,6 +371,7 @@ orange{
 	margin-left: auto;
 	margin-right: auto;
 	background: url('../img/comparison-area-closest-dealers.png');
+	background-repeat: no-repeat;
 }
 /* comparison area end */
 
