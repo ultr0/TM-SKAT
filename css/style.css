@@ -267,6 +267,7 @@ orange{
 	background-image: url("../img/button-dill.png");
 }
 
+/* comparison area */
 #compare{
 	height: 2767px;
 	/*margin-top: -22px;*/
@@ -280,6 +281,31 @@ orange{
 	text-transform: uppercase; 
 	color: #181818;
 }
+
+.phase-1.gas > .comparison-table {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
+.phase-3.gas > .comparison-table {
+	width: 100px;
+	height: 100px;
+	background: green;
+	
+}
+.phase-1.diesel > .comparison-table {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	
+}
+.phase-3.diesel > .comparison-table {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+}
+
+/* comparison area end */
 
 #advantage{
 	height: 1370px;

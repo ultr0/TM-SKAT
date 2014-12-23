@@ -226,6 +226,11 @@
 			</tr>
 		</table>
 	-->
+	<div class="inventor-info">
+		<div class="ico"></div>
+		К этим генераторам можно подключать сварочные инвенторы с силой сварочного тока до 160А
+	</div>
+	<button class="closest-dealers"><a href="http://www.skatpower.ru/shops.html">Ближайшие дилеры генераторов SKAT</a></button>
 	
 	</div>
 	<!---->
