@@ -84,7 +84,7 @@ table {
 }
 
 @font-face {
-  font-family: Proxima Nova;
+  font-family: Proxima Nova Bold;
   src: url(fonts/ProximaNova-Bold.otf);
   font-style: bold;
 }
@@ -104,6 +104,10 @@ body {
 
 h1, h2, h3 {
 	text-transform: uppercase;
+}
+
+b, strong {
+	font-family: Proxima Nova Bold;
 }
 
 a{
@@ -282,6 +286,7 @@ orange{
 	text-align: center;
 	text-transform: uppercase; 
 	color: #181818;
+	font-weight: normal;
 }
 
 .generator-card {
@@ -347,9 +352,9 @@ article td {
 	background: url('../img/comparison-table-1-gas.jpg');
 }
 .phase-3.gas > .comparison-table {
-	width: 100px;
-	height: 100px;
-	background: green;
+	width: 1030px;
+	height: 1185px;
+	background: url('../img/comparison-table-3-gas.jpg');
 	background-repeat: no-repeat;
 }
 .phase-1.diesel > .comparison-table {
@@ -359,9 +364,9 @@ article td {
 	background-repeat: no-repeat;
 }
 .phase-3.diesel > .comparison-table {
-	width: 100px;
-	height: 100px;
-	background: yellow;
+	width: 1030px;
+	height: 1133px;
+	background: url('../img/comparison-table-3-diesel.jpg');
 	background-repeat: no-repeat;
 }
 

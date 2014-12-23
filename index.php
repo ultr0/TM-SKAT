@@ -4,6 +4,7 @@
 	<!-- META -->
 	<meta charset="utf-8">
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<meta name="viewport" content="width=1920, initial-scale=1">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style4.css" />
