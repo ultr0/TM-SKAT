@@ -45,8 +45,28 @@
 	</div>
 	<!---->
 	<div id="compare"> 
-		<!--<h1><b>Основные параметры генераторов</b></h1>
-		<h1><b>1-фазные бензиновые</b> 6 кВт генераторы</h1>
+		<h1><b>Основные параметры генераторов</b></h1>
+		
+		<table>
+			<tr>
+				<td>
+					<div class="parameter-selector">
+						<header>
+							ФАЗНОСТЬ:
+							<button>1 ФАЗА</button>
+							<button>3 ФАЗЫ</button>
+						</header>
+						<article>
+						</article>
+					</div>
+				</td>
+				<td></td>
+				<td>
+					<div class="parameter-selector">–</div>
+				</td>
+			</tr>
+		</table>
+		<!--<h1><b>1-фазные бензиновые</b> 6 кВт генераторы</h1>
 		<table>
 			<tr class="title-table">
 				<th class="main-title-table">сравнение <br> моделей</th>

@@ -71,6 +71,24 @@ table {
 	font-style: extrabold;
 }
 
+@font-face {
+  font-family: Proxima Nova Light;
+  src: url(fonts/ProximaNova-Light.otf);
+  /* font-weight, font-style ==> �� ��������� normal */
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(fonts/ProximaNova-Reg.otf);
+  /* font-weight, font-style ==> �� ��������� normal */
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url(fonts/ProximaNova-Bold.otf);
+  font-style: bold;
+}
+
 
 body {
 	margin: 0 auto 0 auto;
@@ -205,7 +223,7 @@ orange{
 .phone b{
 	margin: 30px;
 	font-size: 25px; 
-	font-style: bold; 
+	font-weight: bold; 
 	color: #ebebeb;
 }
 
