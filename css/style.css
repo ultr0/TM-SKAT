@@ -282,10 +282,28 @@ orange{
 	color: #181818;
 }
 
+.generator-card {
+	width: 570px;
+	height: 385px;
+	background: url('../img/generator-card.png');
+}
+.generator-image {
+	width: 369px;
+	height: 329px;
+}
+.УГД-6000E > .generator-image {
+	background: url('../img/generator-card.png');
+}
+
+
+.comparison-table {
+	margin-left: auto;
+	margin-right: auto;
+}
 .phase-1.gas > .comparison-table {
-	width: 100px;
-	height: 100px;
-	background: red;
+	width: 1030px;
+	height: 1075px;
+	background: url('../img/comparison-table-1-gas.jpg');
 }
 .phase-3.gas > .comparison-table {
 	width: 100px;
@@ -294,9 +312,9 @@ orange{
 	
 }
 .phase-1.diesel > .comparison-table {
-	width: 100px;
-	height: 100px;
-	background: blue;
+	width: 1030px;
+	height: 1074px;
+	background: url('../img/comparison-table-1-diesel.jpg');
 	
 }
 .phase-3.diesel > .comparison-table {
@@ -305,6 +323,13 @@ orange{
 	background: yellow;
 }
 
+.closest-dealers {
+	width: 468px;
+	height: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../img/comparison-area-closest-dealers.png');
+}
 /* comparison area end */
 
 #advantage{
