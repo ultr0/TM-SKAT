@@ -277,7 +277,6 @@ orange{
 	margin-left: auto;
 	margin-right: auto;
 }
-button:focus {outline:0;}
 
 /* comparison area */
 #compare{
@@ -395,101 +394,15 @@ article td {
 	background: url('../img/parameter-selector.png');
 	background-repeat: no-repeat;
 	color: #181818;
-	font-size: 22px;
 }
 .parameter-selector header {
 	color: #ff9000;
-	font-size: 25px;
-	font-weight: bold;
-	height: 75px;
 }
-.parameter-selector header .selection-mask {
-	margin-top: -89px;
-	margin-left: 270px;
+.parameter-selector .selection-mask {
 	width: 155px;
 	height: 92px;
 	background: url('../img/parameter-selector-selection-mask.png');
 	background-repeat: no-repeat;
-	
-    /* For Safari 3.1 to 6.0 */
-    -webkit-transition-property: margin-left;
-    -webkit-transition-duration: 0.1s;
-    -webkit-transition-timing-function: ease-in;
-    -webkit-transition-delay: 0.0s;
-    /* Standard syntax */
-    transition-property: margin-left;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in;
-    transition-delay: 0.0s;
-}
-.parameter-selector .selection-mask.phase-three, .parameter-selector .selection-mask.diesel {
-	margin-left: 405px;
-}
-.parameter-selector header  strong {
-	line-height: 75px;
-	margin-left: 32px;
-}
-.parameter-selector header .phase, .parameter-selector header .fuel {
-	font-size: 20px;
-	font-weight: bold;
-	background: none;
-	border: none;
-	cursor: pointer;
-	
-	line-height: 75px;
-	margin-top: -75px;
-	float: left;
-	
-	color: #fff;
-	text-decoration: underline;
-	
-    /* For Safari 3.1 to 6.0 */
-    -webkit-transition-property: color;
-    -webkit-transition-duration: 0.1s;
-    -webkit-transition-timing-function: ease-in;
-    -webkit-transition-delay: 0.1s;
-    /* Standard syntax */
-    transition-property: color;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in;
-    transition-delay: 0.1s;
-	
-    /* For Safari 3.1 to 6.0 */
-    -webkit-transition-property: margin-top;
-    -webkit-transition-duration: 0.1s;
-    -webkit-transition-timing-function: ease-in;
-    -webkit-transition-delay: 0.1s;
-    /* Standard syntax */
-    transition-property: margin-top;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in;
-    transition-delay: 0.1s;
-}
-.parameter-selector header .phase[selected], .parameter-selector header .fuel[selected],
-.parameter-selector header .phase:hover, .parameter-selector header .fuel:hover {
-	color: #000;
-	text-decoration: none;
-	margin-top: -83px;
-	
-}
-	
-.parameter-selector header .phase.unselected-for-time, .parameter-selector header .fuel.unselected-for-time {
-	color: #fff;
-	text-decoration: underline;
-	margin-top: -75px;
-}
-	
-.parameter-selector .phase:nth-of-type(1),.parameter-selector .fuel:nth-of-type(1) {
-	margin-left: 305px;
-}
-.parameter-selector .phase:nth-of-type(2),.parameter-selector .fuel:nth-of-type(2) {
-	margin-left: 440px;
-}
-
-.parameter-selector article {
-	margin-left: 32px;
-	margin-top: 27px;
-	line-height: 27px;
 }
 
 /* comparison area end */

@@ -56,8 +56,8 @@
 						<header>
 							<strong>ФАЗНОСТЬ:</strong>
 							<div class="selection-mask"></div>
-							<button class="phase">1 ФАЗА</button>
-							<button class="phase">3 ФАЗЫ</button>
+							<button class="phase phase-one">1 ФАЗА</button>
+							<button class="phase phase-three">3 ФАЗЫ</button>
 						</header>
 						<article class="phase-one">
 							Однофазный генератор подойдёт для обычных приборов 220В
@@ -73,8 +73,8 @@
 						<header>
 							<strong>ТИП ТОПЛИВА:</strong>
 							<div class="selection-mask"></div>
-							<button class="fuel">БЕНЗИН</button>
-							<button class="fuel">ДИЗЕЛЬ</button>
+							<button class="fuel gas">БЕНЗИН</button>
+							<button class="fuel diesel">ДИЗЕЛЬ</button>
 						</header>
 						<article class="gas">
 							– Запуск до -15°C<br/>
