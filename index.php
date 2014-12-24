@@ -392,7 +392,7 @@
 		</div>
 	</div>
 	<!---->
-	<div id="location">
+	<!--<div id="location">
 	<div class="map">
 		<div class="fleft">
 			<form action="">
@@ -416,7 +416,7 @@
 
 		</script>
 
-	</div>
+	</div>-->
 	<!---->
 	<div id="footer">
 		<b><a href="/">
