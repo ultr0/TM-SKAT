@@ -278,6 +278,10 @@ orange{
 	margin-right: auto;
 }
 button:focus {outline:0;}
+bitton {
+	background: none;
+	border: none;
+}
 
 /* comparison area */
 #compare{
@@ -381,13 +385,35 @@ article td {
 	background-repeat: no-repeat;
 }
 
+.inventor-info {
+	margin-top: 50px;
+	color: #313131;
+	width: 955px;
+	font-size: 20px;
+	line-height: 44px;
+}
+.inventor-info .ico {
+	width: 44px;
+	height: 44px;
+	background: url('../img/inventor-info-icon.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin-right: 22px;
+}
+
 .closest-dealers {
 	width: 468px;
 	height: 80px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
 	background: url('../img/comparison-area-closest-dealers.png');
 	background-repeat: no-repeat;
+	
+	cursor: pointer;
+	display: block;
+	
+	border: none;
 }
 .parameter-selector {
 	width: 569px;
