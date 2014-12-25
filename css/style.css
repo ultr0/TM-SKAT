@@ -269,8 +269,12 @@ orange{
 	background-image: url("../img/button-top.png");
 	background-repeat: no-repeat;
 	font-size: 17px; 
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	color: #ff9001;
+}
+
+.button-top a{
+	text-decoration: none;
 }
 
 .button-top b{
@@ -536,12 +540,16 @@ article td {
 
 #advantage{
 	height: 1370px;
+	background-color: #ffffff;
 }
 
 .advantage-img{
 	height: 907px;
 	width: 1032px;
-	background-image: url("../img/advantage.jpeg");
+	background-image: url("../img/advantage.jpg");
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
 #protect{
@@ -549,8 +557,8 @@ article td {
 }
 
 .protect-img{
-	height: 770px;
-	width: 1919px;
+	height: 548px;
+	width: 1151px;
 	background-image: url("../img/protect.png");
 	margin-right: auto;
 	margin-left: auto;
