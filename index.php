@@ -25,32 +25,31 @@
 
 <body>
 	<div id="top">
-		<div class="top-main">
-			<div style="height: 120px;">
-				<a href="/">
-					<div class="logo"></div>
-				</a>
-				
-				<div class="phone">
-					<b>8-800-555-36-75</b>
-					<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru/</a>
-				</div>
-			</div>
-			<div class="centered" style="margin-top: 51px;">
-				<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
-				
-				<div style="height: 100px; margin-top: -90px;">
-					<a href="http://www.skatpower.ru/shops.html">
-						<div class="button-dill"></div>
+		<div class="top-bg">
+			<div class="top-main">
+				<div style="height: 120px;">
+					<a href="/">
+						<div class="logo"></div>
 					</a>
+					
+					<div class="phone">
+						<b>8-800-555-36-75</b>
+						<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+					</div>
 				</div>
-
-			</div>
-			<div class="gen" ></div>
-			<div class="button-top">
-				
-
-				<a href="#compare"><b>ПОСМОТРЕТЬ ЛИНЕЙКУ 6 кВт ГЕНЕРАТОРОВ</b></a>
+				<div class="centered" style="margin-top: 51px;">
+					<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
+					
+					<div style="height: 100px; margin-top: -90px;">
+						<a href="http://www.skatpower.ru/shops.html">
+							<div class="button-dill"></div>
+						</a>
+					</div>
+				</div>
+				<div class="gen" ></div>
+				<div class="button-top">
+					<a href="#compare"><b>ПОСМОТРЕТЬ ЛИНЕЙКУ 6 кВт ГЕНЕРАТОРОВ</b></a>
+				</div>
 			</div>
 		</div>
 	</div>

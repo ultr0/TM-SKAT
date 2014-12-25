@@ -193,7 +193,7 @@ orange{
 #top{
 	/*min-width: 1115px;*/
 	height: 1027px;
-	/*background-color: #F4F4F4;*/
+	background-color: #F4F4F4;
 	background-image: url("../img/bg-top.png");
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -205,6 +205,7 @@ orange{
 	width: 1172px;
 	margin-right: auto;
 	margin-left: auto;
+	background-image: url("../img/bg-top.png");
 }
 
 .logo{
@@ -256,8 +257,8 @@ orange{
 }
 
 .gen{
-	width: 1105px;
-	height: 411px;
+	width: 1133px;
+	height: 489px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: url("../img/generators.png");
@@ -272,7 +273,6 @@ orange{
 	background-image: url("../img/button-top.png");
 	background-repeat: no-repeat;
 	font-size: 17px; 
-	/*text-transform: uppercase;*/
 	color: #ff9001;
 }
 
@@ -660,7 +660,6 @@ article td {
 	background-image: url("../img/company.png");
 	margin-right: auto;
 	margin-left: auto;
-	/*margin-top: 91px;*/
 }
 
 #service{
@@ -720,6 +719,9 @@ article td {
 	text-transform: uppercase;
 	color: #fff;
 	margin-top: 20px;
+}
+.text-garanty{
+	font-weight: normal;
 }
 .text-garanty{
 	font-weight: normal;
