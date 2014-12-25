@@ -193,7 +193,7 @@ orange{
 #top{
 	/*min-width: 1115px;*/
 	height: 1027px;
-	background-color: #0e1217;
+	/*background-color: #F4F4F4;*/
 	background-image: url("../img/bg-top.png");
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -632,7 +632,7 @@ article td {
 }
 
 #compare2{
-	height: 2136px;
+	height: 1302px;
 }
 
 #company{
