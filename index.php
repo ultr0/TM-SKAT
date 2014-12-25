@@ -26,18 +26,28 @@
 <body>
 	<div id="top">
 		<div class="top-main">
-			<a href="/">
-				<div class="logo"></div>
-			</a>
-			
-			<div class="phone">
-				<b>8-800-555-36-75</b>
-				<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+			<div style="height: 120px;">
+				<a href="/">
+					<div class="logo"></div>
+				</a>
+				
+				<div class="phone">
+					<b>8-800-555-36-75</b>
+					<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+				</div>
 			</div>
-			<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
-			<a href="http://www.skatpower.ru/shops.html">
-				<div class="button-dill"></div>
-			</a>
+			<table class="centered" style="margin-top: 111px;">
+				<tr>
+					<td>
+						<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
+					</td>
+					<td>
+						<a href="http://www.skatpower.ru/shops.html">
+							<div class="button-dill"></div>
+						</a>
+					</td>
+				</tr>
+			</table>
 			<div class="gen" ></div>
 			<div class="button-top">
 				

@@ -247,11 +247,11 @@ orange{
 
 .title-text{
 	width: 663px;
-	padding-top: 222px;
 	font-size: 44px; 
 	text-transform: uppercase; 
 	color: #ebebeb;
 	z-index: 3;
+	height: 100px;
 }
 
 .gen{
