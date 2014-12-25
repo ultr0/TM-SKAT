@@ -25,24 +25,25 @@
 
 <body>
 	<div id="top">
-		<b><a href="/">
-			<div class="logo"></div>
-		</a></b>
-		
-		<div class="phone">
-			<b>8-800-555-36-75</b>
-			<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
-		</div>
-		<br>
+		<div class="top-main">
+			<a href="/">
+				<div class="logo"></div>
+			</a>
+			
+			<div class="phone">
+				<b>8-800-555-36-75</b>
+				<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+			</div>
+			<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
+			<a href="http://www.skatpower.ru/shops.html">
+				<div class="button-dill"></div>
+			</a>
+			<div class="gen" ></div>
+			<div class="button-top">
+				
 
-		<div class="button-dill"></div>
-		<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
-
-		<div class="gen" ></div>
-		<div class="button-top">
-			<br>
-
-			<b>посмотреть линейку 6 кВт генераторов</b>
+				<b>посмотреть линейку 6 кВт генераторов</b>
+			</div>
 		</div>
 	</div>
 	<!---->
@@ -348,7 +349,7 @@
 	</div>
 	<!---->
 	<div id="advantage">
-		
+		<div class="advantage-img"></div>
 	</div>
 	<!---->
 	<div id="protect">
@@ -356,14 +357,16 @@
 	</div>
 	<!---->
 	<div id="causes">
-		<h1><br><b>7 причин, почему любой из генераторов СКАТ<b> <br>прослужит вам долго</h1>
+		<!--<h1><br><b>7 причин, почему любой из генераторов СКАТ<b> <br>прослужит вам долго</h1>
 		<h3>Генератор СКАТ надежно защищен от:</h3>
 		<div class="image-level1">
 			<p><br><br><br>Перегрузок&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Попадания ржавчины в бак&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Запуска без масла</p>
 		</div>
 		<div class="image-level2">
 			<p><br><br><br>Пыли и грязи&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Брызг&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Сгорания обмотки&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Перегрева</p>
-		</div>
+		</div>-->
+		<br><br><br><br>
+		<div class="causes-all"></div>
 	</div>
 	<!---->
 	<div id="compare2">
@@ -375,6 +378,38 @@
 	</div>
 	<!---->
 	<div id="service">
+		
+		<div class="service-img"></div>
+		<!--<table class="centered">
+			<tr>
+				<td>
+					<div class="parameter-selector phase-selector">
+						<header>
+							<strong><h2>Генератор СКАТ прост <br>в эксплуатации и обслуживании</h2></strong>
+						</header>
+						<article class="phase-one">
+							<p>Благодаря механическому счетчику моточасов,<br>вы не пропустите момент, когда нужно произвести<br>техобслуживание генератора: сменить масло, поменять<br>свечу, почистить фильтры. Это обеспечит долгую жизнь<br> вашему генератору.</p>	
+						</article>
+						
+					</div>
+				</td>
+				<td class="middle-space"></td>
+				<td>
+					<div class="parameter-selector fuel-selector">
+						<header>
+							<strong><h2>Информационная <br>и техническая поддержка</h2></strong>
+						</header>
+						<article class="gas">
+						<p>Вы всегда сможете получить техническую и <br>информационную поддержку о техобслуживании <br>генератора, схемах подключения и любых других <br>вопросах, которые могут у вас возникнуть.</p>	
+						</article>
+
+					</div>
+				</td>
+			</tr>
+			
+			
+		</table>
+		
 		<div class="easy-service">
 			<h2>Генератор СКАТ прост <br>в эксплуатации и обслуживании</h2>
 			<p>Благодаря механическому счетчику моточасов,<br>вы не пропустите момент, когда нужно произвести<br>техобслуживание генератора: сменить масло, поменять<br>свечу, почистить фильтры. Это обеспечит долгую жизнь<br> вашему генератору.</p>	
@@ -382,7 +417,7 @@
 		<div class="info-service">
 			<h2>Информационная <br>и техническая поддержка</h2>
 			<p>Вы всегда сможете получить техническую и <br>информационную поддержку о техобслуживании <br>генератора, схемах подключения и любых других <br>вопросах, которые могут у вас возникнуть.</p>	
-		</div>
+		</div>-->
 	</div>
 	<!---->
 	<div id="garanty">
@@ -392,8 +427,8 @@
 		</div>
 	</div>
 	<!---->
-	<!--<div id="location">
-	<div class="map">
+	<div id="location">
+	<!--<div class="map">
 		<div class="fleft">
 			<form action="">
 				<select id="cd-dropdown" class="cd-select" onchange="alert(tdis.options[tdis.selectedIndex].value);">
@@ -414,20 +449,25 @@
 
 			});
 
-		</script>
-
-	</div>-->
+		</script>-->
+	<div class="map-space"></div>
+	<a href="http://www.skatpower.ru/shops.html">
+		<div class="button-dill"></div>
+	</a>
+	</div>
 	<!---->
 	<div id="footer">
-		<b><a href="/">
-			<div class="logo"></div>
-		</a></b>
-		
-		<div class="phone">
-			<b>8-800-555-36-75</b>
-			<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+		<div class="footer-fix">
+			<b><a href="/">
+				<div class="logo"></div>
+			</a></b>
+			
+			<div class="phone">
+				<b>8-800-555-36-75</b>
+				<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+			</div>
+			<br>
 		</div>
-		<br>
 	</div>
 	<!---->
 </body>
