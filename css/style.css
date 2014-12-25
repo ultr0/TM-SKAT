@@ -750,11 +750,11 @@ article td {
 
 
 .button-dill:hover {
-    -webkit-filter: brightness(80%);
-    filter: brightness(80%);
+    -webkit-filter: brightness(140%);
+    filter: brightness(140%);
 }
 
 .button-dill:active {
-    -webkit-filter: brightness(50%);
-    filter: brightness(50%);
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
 }
