@@ -227,8 +227,10 @@ orange{
 }
 
 .phone a{
-	margin: 30px;
-	text-decoration: underline; 	
+	margin-left: 30px;
+	text-decoration: underline; 
+	margin-top: 5px;
+	display: block;
 }
 
 .phone b{
