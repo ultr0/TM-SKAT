@@ -205,6 +205,8 @@ orange{
 	width: 1172px;
 	margin-right: auto;
 	margin-left: auto;
+}
+.top-bg {
 	background-image: url("../img/bg-top.png");
 }
 
