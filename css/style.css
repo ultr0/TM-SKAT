@@ -745,3 +745,14 @@ article td {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+
+.button-dill:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
+
+.button-dill:active {
+    -webkit-filter: brightness(50%);
+    filter: brightness(50%);
+}
