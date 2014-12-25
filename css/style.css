@@ -193,19 +193,25 @@ orange{
 #top{
 	/*min-width: 1115px;*/
 	height: 1027px;
-	background-color: #0e1217;
+	/*background-color: #F4F4F4;*/
 	background-image: url("../img/bg-top.png");
 	background-position: center top;
 	background-repeat: no-repeat;
+	top: 0;
 	z-index: 5;
+}
+
+.top-main{
+	width: 1172px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .logo{
 
 	height: 91px;
 	width: 296px;
-	margin-top: 29px auto;
-	margin-left: 10%;
+	margin-top: 29px;
 	float: left;
 	background-image: url("../img/logo.png");
 	z-index: 100;
@@ -213,32 +219,40 @@ orange{
 
 .phone{
 	height: 48px;
-	width: 250px;
-	margin-top: 29px;
-	margin-right: 10%;
+	width: 258px;
+	margin-top: 45px;
 	float: right;
 	background: url("../img/phone.png");
 	background-repeat: no-repeat;
 }
 
 .phone a{
-	margin: 30px;
-	text-decoration: underline; 	
+	margin-left: 30px;
+	text-decoration: underline; 
+	margin-top: 5px;
+	display: block;
+	font-size: 15px;
 }
 
 .phone b{
 	margin: 30px;
-	font-size: 25px; 
+	font-size: 23px; 
 	font-weight: bold; 
 	color: #ebebeb;
 }
 
-.title-text{
+.title-button-top{
 	margin-top: 222px;
-	margin-left: 10%;
+
+}
+
+.title-text{
+	width: 663px;
 	font-size: 44px; 
 	text-transform: uppercase; 
 	color: #ebebeb;
+	z-index: 3;
+	height: 100px;
 }
 
 .gen{
@@ -253,11 +267,17 @@ orange{
 .button-top{
 	height: 165px;
 	width: 531px;
-	margin: 70px auto 0 auto; 
+	margin: 70px auto 0 auto;
+	padding-top: 30px; 
 	background-image: url("../img/button-top.png");
+	background-repeat: no-repeat;
 	font-size: 17px; 
-	text-transform: uppercase; 
+	/*text-transform: uppercase;*/
 	color: #ff9001;
+}
+
+.button-top a{
+	text-decoration: none;
 }
 
 .button-top b{
@@ -267,10 +287,11 @@ orange{
 .button-dill{
 	height: 56px;
 	width: 471px;
-	margin-right: : 10%;
-	margin-top: 222px;
+	padding-top: 32px;
 	float: right;
 	background-image: url("../img/button-dill.png");
+	background-repeat: no-repeat;
+	z-index: 4;
 }
 
 .centered {
@@ -290,7 +311,7 @@ bitton {
 	z-index: 9;
 }
 
-#compare h1{
+#compare h1, #compare2 h1{
 	margin-top: 100px;
 	font-size: 34px;
 	text-align: center;
@@ -335,14 +356,27 @@ article td {
 }
 	
 .generator-image {
-	width: 369px;
-	height: 329px;
-	background: url('../img/УГД-6000E.png');
+	
+	margin: 25.5px 41.5px 21.5px 34.5px;
+	width: 286px;
+	height: 286px;
+	background: url('../img/УГД-6000E.jpg');
 	background-repeat: no-repeat;
 }
-.УГД-6000E > .generator-image {
-	background: url('../img/УГД-6000E.png');
-	background-repeat: no-repeat;
+.УГБ-6000 .generator-image {
+	background: url('../img/УГБ-6000.jpg');
+}
+.УГБ-6000Basic .generator-image {
+	background: url('../img/УГБ-6000Basic.jpg');
+}
+.УГД-6000E .generator-image {
+	background: url('../img/УГД-6000E.jpg');
+}
+.УГБ-6000E .generator-image {
+	background: url('../img/УГБ-6000E.jpg');
+}
+.УГБ-6000Авто .generator-image {
+	background: url('../img/УГБ-6000Авто.jpg');
 }
 
 .generators-cards-centered-block {
@@ -522,10 +556,30 @@ article td {
 
 #advantage{
 	height: 1370px;
+	background-color: #FDFDFD;
+	padding-top: 231.5px;
+}
+
+.advantage-img{
+	height: 907px;
+	width: 1032px;
+	background-image: url("../img/advantage.jpg");
+	margin-right: auto;
+	margin-left: auto;
+
 }
 
 #protect{
 	height: 771px; 
+}
+
+.protect-img{
+	height: 548px;
+	width: 1151px;
+	background-image: url("../img/protect.png");
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 111.5px;
 }
 
 #causes{
@@ -550,6 +604,16 @@ article td {
 	font-weight: bold; 
 	color: #181818;
 
+}
+
+.causes-all{
+	height: 593px;
+	width: 1030px;
+	padding-top: 108px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("../img/causes-all.png");
+	background-repeat: no-repeat;
 }
 
 .image-level1{
@@ -582,15 +646,33 @@ article td {
 }
 
 #compare2{
-	height: 2136px;
+	height: 1302px;
 }
 
 #company{
 	height: 1020px;
+	background-color: #FFFFFF;
+}
+
+.company-img{
+	height: 868px;
+	width: 1181px;
+	background-image: url("../img/company.png");
+	margin-right: auto;
+	margin-left: auto;
+	/*margin-top: 91px;*/
 }
 
 #service{
 	height: 396px;
+}
+
+.service-img{
+	width: 1088px;
+	height: 254px;
+	background-image: url("../img/service-img.png");
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .easy-service{
@@ -618,34 +700,43 @@ article td {
 #garanty{
 	height: 230px;
 	background-color: #1b2128;
-	font-size: 20px; 
+	font-size: 20px;
+	font-weight: normal; 
 	color: #fff;
 }
 
 .garanty{
+	width: 1172px;
 	background-image: url("../img/garanty.png");
 	background-repeat: no-repeat;
-	background-position:  0% 35%;
-	margin-top: 10px;
-	margin-left: 15%;
-	padding: 10px;
+	background-position:  0% 47%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
 }
 
 .top-text-garanty{
 	font-size: 24px; 
 	text-transform: uppercase;
 	color: #fff;
-	
+	margin-top: 20px;
+}
+.text-garanty{
+	font-weight: normal;
 }
 
 .text-garanty, .top-text-garanty{
 	
-	margin-left: 4%;
+	margin-left: 5%;
 	padding: 15px;
+	line-height: 31px;
 }
 
 #location{
-	height: 716px;
+	height: 119px;
+	/*height: 716px;*/
+	background-image: url("../img/map-small-bg.png");
+	background-position: center center;
 }
 
 .map {
@@ -653,8 +744,34 @@ article td {
     height: 100%;
 }
 
+.map-space{
+	height: 25px;
+}
+
+#location .button-dill{
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+}
+
 #footer{
 	height: 170px;
 	background-color: #1b2128;
+}
 
+.footer-fix{
+	width: 1172px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.button-dill:hover {
+    -webkit-filter: brightness(140%);
+    filter: brightness(140%);
+}
+
+.button-dill:active {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
 }
