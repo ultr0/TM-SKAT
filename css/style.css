@@ -548,6 +548,15 @@ article td {
 	height: 771px; 
 }
 
+.protect-img{
+	height: 770px;
+	width: 1919px;
+	background-image: url("../img/protect.png");
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
 #causes{
 	height: 849px;
 	background-color: #ffc530;
@@ -618,6 +627,14 @@ article td {
 #company{
 	height: 1020px;
 	background-color: #FFFFFF;
+}
+
+.company{
+	height: 868px;
+	width: 1181px;
+	background-image: url("../img/company.png");
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #service{

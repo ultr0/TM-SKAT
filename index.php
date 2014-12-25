@@ -353,7 +353,7 @@
 	</div>
 	<!---->
 	<div id="protect">
-		
+		<div class="protect-img"></div>
 	</div>
 	<!---->
 	<div id="causes">
@@ -374,7 +374,7 @@
 	</div>
 	<!---->
 	<div id="company">
-		
+		<div class="company-img"></div>
 	</div>
 	<!---->
 	<div id="service">
