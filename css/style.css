@@ -288,6 +288,19 @@ orange{
 	color: #ff9001;
 }
 
+@-webkit-keyframes rotating {
+	
+    0%   {
+        -webkit-transform: rotate(0deg);
+	}
+    92%   {
+        -webkit-transform: rotate(0deg);
+	}
+    100%   {
+        -webkit-transform: rotate(360deg);
+	}
+}
+
 .button-top-hand {
 	background-image: url("../img/finger-top.png");
 	background-repeat: no-repeat;
@@ -296,6 +309,7 @@ orange{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 42px;
+    -webkit-animation: rotating 5s linear infinite;
 }
 
 .button-top:hover {
