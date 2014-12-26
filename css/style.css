@@ -88,6 +88,11 @@ table {
   src: url(fonts/ProximaNova-Bold.otf);
   font-style: bold;
 }
+@font-face {
+  font-family: Proxima Nova Extra Bold;
+  src: url(fonts/ProximaNova-Xbold.otf);
+  font-style: extrabold;
+}
 
 
 body {
@@ -108,6 +113,10 @@ h1, h2, h3 {
 
 b, strong {
 	font-family: Proxima Nova Bold;
+}
+
+h1 b {
+	font-family: Proxima Nova Extra Bold;
 }
 
 a{
@@ -385,6 +394,33 @@ bitton {
 	width: 342px;
 	padding-left: 20px;
 }
+
+.УГБ-6000 > header {
+	padding-left: 52px;
+}
+.УГБ-6000E > header {
+	padding-left: 49px;
+}
+.УГБ-6000Авто > header {
+	padding-left: 34px;
+}
+.УГБ-6000Basic > header {
+	padding-left: 30px;
+}
+
+.УГД-6000E > header {
+	padding-left: 44px;
+}
+.УГД-6000EK > header {
+	padding-left: 40px;
+}
+.УГД-6000ET-3KVT > header, .УГБ-6000ET6KVT > header  {
+	padding-left: 13px;
+}
+
+
+
+
 .generator-description {
 	font-size: 20px;
 	left: 370px;
@@ -707,7 +743,7 @@ article td {
 }
 
 #service{
-	height: 396px;
+	height: 331px;
 }
 
 .service-img{
@@ -716,6 +752,7 @@ article td {
 	background-image: url("../img/service-img.png");
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 65px;
 }
 
 .easy-service{
@@ -755,27 +792,29 @@ article td {
 	background-position:  0% 47%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 30px;
+	padding: 20px;
 }
 
-.top-text-garanty{
-	font-size: 24px; 
-	text-transform: uppercase;
-	color: #fff;
-	margin-top: 20px;
-}
-.text-garanty{
-	font-weight: normal;
-}
-.text-garanty{
-	font-weight: normal;
-}
 
 .text-garanty, .top-text-garanty{
 	
 	margin-left: 5%;
 	padding: 15px;
 	line-height: 31px;
+}
+
+.top-text-garanty{
+	font-size: 25px; 
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.text-garanty{
+	font-weight: normal;
+}
+.text-garanty{
+	font-weight: normal;
 }
 
 #location{
