@@ -28,7 +28,7 @@
 		<div class="top-bg">
 			<div class="top-main">
 				<div style="height: 120px;">
-					<a href="/">
+					<a href="http://lp.skatpower.ru/">
 						<div class="logo"></div>
 					</a>
 					
@@ -402,8 +402,19 @@
 						</div>
 					</td>
 				</tr>
+				<tr>
+					<td>
+						<a class="compare-anchor centered" href="#compare">Сравнить эти модели между собой</a>
+					</td>
+					<td>
+					</td>
+					<td>
+						<a class="closest-dealers centered" href="http://www.skatpower.ru/shops.html"></a>
+					</td>
+				</tr>
 			</table>
 		</div>
+		
 	</div>
 	<!---->
 	<div id="company">
@@ -491,7 +502,7 @@
 	<!---->
 	<div id="footer">
 		<div class="footer-fix">
-			<b><a href="/">
+			<b><a href="http://lp.skatpower.ru/">
 				<div class="logo"></div>
 			</a></b>
 			

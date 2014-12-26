@@ -726,7 +726,22 @@ article td {
 }
 
 #compare2{
-	height: 1302px;
+	height: 1193px;
+}
+
+#compare2 .compare-anchor {
+	background: #FFAB01;
+	color: #181818;
+	width: 493px;
+	height: 80px;
+    /*border-bottom: 1px dashed #000;*/
+    text-decoration: dashed;
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 20px;
+	margin-top: -47px;
+	border-radius: 3px;
 }
 
 #company{
