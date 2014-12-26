@@ -34,10 +34,10 @@
 					
 					<div class="phone">
 						<b>8-800-555-36-75</b>
-						<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru</a>
+						<a href="http://www.skatpower.ru/">http://wwww.skatpower.ru/</a>
 					</div>
 				</div>
-				<div class="centered" style="margin-top: 51px;">
+				<div class="centered" style="margin-top: 101px;">
 					<div class="title-text"><b>Надежные и практичные</b><br>генераторы Skat 6 квт</div>
 					
 					<div style="height: 100px; margin-top: -90px;">
@@ -50,6 +50,7 @@
 				<div class="button-top">
 					<a href="#compare"><b>ПОСМОТРЕТЬ ЛИНЕЙКУ 6 кВт ГЕНЕРАТОРОВ</b></a>
 				</div>
+				<div class="button-top-hand"></div>
 			</div>
 		</div>
 	</div>

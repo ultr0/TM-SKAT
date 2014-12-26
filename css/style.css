@@ -208,25 +208,32 @@ orange{
 }
 .top-bg {
 	background-image: url("../img/bg-top.png");
+	height: 1014px;
 }
 
-.logo{
+.logo {
 
 	height: 91px;
 	width: 296px;
-	margin-top: 29px;
 	float: left;
 	background-image: url("../img/logo.png");
 	z-index: 100;
+	margin-top: 35px;
+	margin-left: -15px;
 }
 
-.phone{
+.phone {
 	height: 48px;
-	width: 258px;
 	margin-top: 45px;
 	float: right;
 	background: url("../img/phone.png");
 	background-repeat: no-repeat;
+	
+	width: 317px;
+	padding-left: 62px;
+	background-position: 66px 10px;
+	margin-right: -35px;
+	padding-top: 10px;
 }
 
 .phone a{
@@ -235,6 +242,7 @@ orange{
 	margin-top: 5px;
 	display: block;
 	font-size: 15px;
+	padding-top: 4px;
 }
 
 .phone b{
@@ -256,6 +264,8 @@ orange{
 	color: #ebebeb;
 	z-index: 3;
 	height: 100px;
+	padding-left: 10px;
+	line-height: 53px;
 }
 
 .gen{
@@ -268,14 +278,32 @@ orange{
 }
 
 .button-top{
-	height: 165px;
+	height: 77px;
 	width: 531px;
-	margin: 70px auto 0 auto;
+	margin: -16px auto 0 auto;
 	padding-top: 30px; 
 	background-image: url("../img/button-top.png");
 	background-repeat: no-repeat;
 	font-size: 17px; 
 	color: #ff9001;
+}
+
+.button-top-hand {
+	background-image: url("../img/finger-top.png");
+	background-repeat: no-repeat;
+	width: 36px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 42px;
+}
+
+.button-top:hover {
+	background-position: 0 -79px;
+	color: #181818;
+}
+.button-top:hover a {
+	color: #181818;
 }
 
 .button-top a{
