@@ -762,7 +762,8 @@ article td {
 }
 
 .service-img{
-	width: 1088px;
+	width: 1129px;
+	background-repeat: no-repeat;
 	height: 254px;
 	background-image: url("../img/service-img.png");
 	margin-right: auto;
@@ -804,16 +805,17 @@ article td {
 	width: 1172px;
 	background-image: url("../img/garanty.png");
 	background-repeat: no-repeat;
-	background-position:  0% 47%;
+	background-position:  2% 47%;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 20px;
+	padding-left: 80px;
 }
 
 
 .text-garanty, .top-text-garanty{
 	
-	margin-left: 5%;
+	margin-left: 4%;
 	padding: 15px;
 	line-height: 31px;
 }
@@ -874,4 +876,18 @@ article td {
 .button-dill:active {
     -webkit-filter: brightness(120%);
     filter: brightness(120%);
+}
+
+.service-dark-square {
+	margin-top: -65px;
+	width: 50%;
+	height: 390px;
+	position: absolute;
+	background: #f8f8f8;
+	z-index: -1;
+}
+
+.service-dark-square.right {
+	background: #f1f1f1;
+	left: 50%
 }

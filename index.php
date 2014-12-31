@@ -422,7 +422,9 @@
 	</div>
 	<!---->
 	<div id="service">
-		
+		<div class="service-dark-square"></div>
+		<div class="service-dark-square right"></div>
+
 		<div class="service-img"></div>
 		<!--<table class="centered">
 			<tr>
@@ -467,7 +469,7 @@
 	<div id="garanty">
 		<div class="garanty">
 			<div class="top-text-garanty"><b>Как получить <orange>расширенную гарантию</orange></b></div>
-			<div class="text-garanty">СКАТ уверен в качестве своих генераторов и дает гарантию на 2 года. <br> После приобретения генератора зарегистрируйтесь на сайте компании и получите расширенную гарантию.</div>	
+			<div class="text-garanty">СКАТ уверен в качестве своих генераторов и дает гарантию на 2 года. <br> После приобретения генератора зарегистрируйтесь на сайте компании и получите расширенную. <!-- гарантию.--></div>
 		</div>
 	</div>
 	<!---->
