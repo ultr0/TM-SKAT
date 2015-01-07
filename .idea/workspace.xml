@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e402947c-f927-49c8-adba-5cf8679561ea" name="Default" comment="Карта нормальных размеров">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/grey-triangle.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Layer-160.png.!sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Layer-161.png.!sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Layer-164.png.!sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ps610B.tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    <list default="true" id="e402947c-f927-49c8-adba-5cf8679561ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -34,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.037037" vertical-offset="13283" max-vertical-offset="13860">
-              <caret line="909" column="25" selection-start-line="909" selection-start-column="1" selection-end-line="909" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.4197292" vertical-offset="13283" max-vertical-offset="13860">
+              <caret line="900" column="46" selection-start-line="900" selection-start-column="46" selection-end-line="900" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6044625" vertical-offset="4262" max-vertical-offset="8055">
-              <caret line="304" column="44" selection-start-line="304" selection-start-column="44" selection-end-line="304" selection-end-column="44" />
+            <state vertical-scroll-proportion="-2.0196078" vertical-offset="4262" max-vertical-offset="8055">
+              <caret line="291" column="31" selection-start-line="291" selection-start-column="31" selection-end-line="291" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -66,8 +60,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -393,7 +387,7 @@
       <updated>1419985477168</updated>
       <workItem from="1419985477717" duration="1558000" />
       <workItem from="1420597505344" duration="754000" />
-      <workItem from="1420600384750" duration="2928000" />
+      <workItem from="1420600384750" duration="3159000" />
     </task>
     <task id="LOCAL-00001" summary=".service-spacer-triangle added to styles">
       <created>1420600319738</created>
@@ -419,15 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1420608773455</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Серый треугольник">
+      <created>1420609785061</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1420609785061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5240000" />
+    <option name="totallyTimeSpent" value="5471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -450,7 +450,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -481,7 +481,8 @@
     <MESSAGE value="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)&#10;Подчищены некоторые code warnings, errors" />
     <MESSAGE value="Подчеркивание кнопки &quot;Сравнить эти модели между собой&quot; готово dashed, а не линией" />
     <MESSAGE value="Карта нормальных размеров" />
-    <option name="LAST_COMMIT_MESSAGE" value="Карта нормальных размеров" />
+    <MESSAGE value="Серый треугольник" />
+    <option name="LAST_COMMIT_MESSAGE" value="Серый треугольник" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -535,18 +536,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.037037" vertical-offset="13283" max-vertical-offset="13860">
-          <caret line="909" column="25" selection-start-line="909" selection-start-column="1" selection-end-line="909" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6044625" vertical-offset="4262" max-vertical-offset="8055">
-          <caret line="304" column="44" selection-start-line="304" selection-start-column="44" selection-end-line="304" selection-end-column="44" />
+        <state vertical-scroll-proportion="-2.0196078" vertical-offset="4262" max-vertical-offset="8055">
+          <caret line="291" column="31" selection-start-line="291" selection-start-column="31" selection-end-line="291" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -556,6 +549,14 @@
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4197292" vertical-offset="13283" max-vertical-offset="13860">
+          <caret line="900" column="46" selection-start-line="900" selection-start-column="46" selection-end-line="900" selection-end-column="46" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
