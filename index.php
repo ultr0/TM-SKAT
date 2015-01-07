@@ -301,6 +301,8 @@
 	<!---->
 	<div id="advantage">
 		<div class="advantage-img"></div>
+
+		<div class="gray-spacer-triangle-100"></div>
 	</div>
 	<!---->
 	<div id="protect">

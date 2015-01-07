@@ -904,3 +904,16 @@ article td {
 	margin-top: -65px;
 
 }
+
+
+
+.gray-spacer-triangle-100 {
+	width: 30px;
+	height: 13px;
+	background-repeat: no-repeat;
+	background-image: url("../img/grey-triangle.png");
+	position: absolute;
+	left: 49.1%;
+	margin-top: -65px;
+
+}
