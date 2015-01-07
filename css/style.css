@@ -13,19 +13,17 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+figure, figcaption, footer, header,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
- HTML5 display-role reset for older browsers 
+
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, menu, nav, section {
 	display: block;
 }
 body {
@@ -57,17 +55,15 @@ table {
 
 @font-face {
 	font-family: Proxima Nova;
-	scr: /*local("Proxima Nova Bold"),
-		 local("ProximaNova-Bold"),	*/
+	src: local("Proxima Nova Bold"),
+		 local("ProximaNova-Bold"),
 		 url(fonts/ProximaNova-Bold.otf) format("opentype");
-	font-style: bold;
+	font-style: oblique;
 }
 
 @font-face {
 	font-family: Proxima Nova;
-	scr: /*local("Proxima Nova Extrabold"),
-		 local("ProximaNova-Extrabold"),	*/
-		 url(fonts/ProximaNova-Xbold.otf) format("opentype");
+	src: url(fonts/ProximaNova-Xbold.otf) format("opentype");
 	font-style: extrabold;
 }
 
@@ -898,5 +894,8 @@ article td {
 	height: 10px;
 	background-repeat: no-repeat;
 	background-image: url("../img/service-spacer-triangle.png");
+	position: absolute;
+	left: 49.1%;
+	margin-top: -65px;
 
 }

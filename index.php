@@ -9,9 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link rel="stylesheet" type="text/css" href="css/style4.css" />
 	<!-- JavaScript -->
-	<script type="text/javascript" href="js/jquery-1.11.1.js"></script>
-	<script type="text/javascript" href="js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" href="js/warning.js"></script>
 	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<script src="js/location.js" type="text/javascript"></script>
 	<script src="js/modernizr.custom.63321.js"></script>
@@ -422,9 +419,9 @@
 	</div>
 	<!---->
 	<div id="service">
-		<div class="service-spacer-triangle"></div>
 		<div class="service-dark-square"></div>
 		<div class="service-dark-square right"></div>
+		<div class="service-spacer-triangle"></div>
 
 		<div class="service-img"></div>
 		<!--<table class="centered">

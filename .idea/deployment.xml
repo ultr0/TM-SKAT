@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="lp.skatpower.ru">
+  <component name="PublishConfigData" autoUpload="Always" serverName="lp.skatpower.ru" uploadOnCheckin="46591719-7f13-4a09-9f79-e77dc93631ba">
     <serverData>
       <paths name="lp.skatpower.ru">
         <serverdata>
@@ -13,6 +13,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="lp.skatpower.ru" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
