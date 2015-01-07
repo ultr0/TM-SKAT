@@ -422,6 +422,7 @@
 	</div>
 	<!---->
 	<div id="service">
+		<div class="service-spacer-triangle"></div>
 		<div class="service-dark-square"></div>
 		<div class="service-dark-square right"></div>
 
