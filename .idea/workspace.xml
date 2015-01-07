@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e402947c-f927-49c8-adba-5cf8679561ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+    <list default="true" id="e402947c-f927-49c8-adba-5cf8679561ea" name="Default" comment="Подчеркивание кнопки &quot;Сравнить эти модели между собой&quot; готово dashed, а не линией">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map-small-bg.png" afterPath="$PROJECT_DIR$/img/map-small-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TM-SKAT.iws" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53578335" vertical-offset="10823" max-vertical-offset="13665">
-              <caret line="740" column="26" selection-start-line="740" selection-start-column="26" selection-end-line="740" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.4777563" vertical-offset="10823" max-vertical-offset="13665">
+              <caret line="738" column="22" selection-start-line="738" selection-start-column="22" selection-end-line="738" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -128,6 +127,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TM-SKAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TM-SKAT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,7 +387,7 @@
       <updated>1419985477168</updated>
       <workItem from="1419985477717" duration="1558000" />
       <workItem from="1420597505344" duration="754000" />
-      <workItem from="1420600384750" duration="1721000" />
+      <workItem from="1420600384750" duration="2458000" />
     </task>
     <task id="LOCAL-00001" summary=".service-spacer-triangle added to styles">
       <created>1420600319738</created>
@@ -388,15 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1420606821747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Подчеркивание кнопки &quot;Сравнить эти модели между собой&quot; готово dashed, а не линией">
+      <created>1420607632447</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1420607632447</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4033000" />
+    <option name="totallyTimeSpent" value="4770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -419,7 +438,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32942554" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -448,7 +467,8 @@
     <MESSAGE value="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)" />
     <MESSAGE value="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)&#10;Подчищены некоторые code warnings/errors" />
     <MESSAGE value="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)&#10;Подчищены некоторые code warnings, errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)&#10;Подчищены некоторые code warnings, errors" />
+    <MESSAGE value="Подчеркивание кнопки &quot;Сравнить эти модели между собой&quot; готово dashed, а не линией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подчеркивание кнопки &quot;Сравнить эти модели между собой&quot; готово dashed, а не линией" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -519,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53578335" vertical-offset="10823" max-vertical-offset="13665">
-          <caret line="740" column="26" selection-start-line="740" selection-start-column="26" selection-end-line="740" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.4777563" vertical-offset="10823" max-vertical-offset="13665">
+          <caret line="738" column="22" selection-start-line="738" selection-start-column="22" selection-end-line="738" selection-end-column="22" />
           <folding />
         </state>
       </provider>
