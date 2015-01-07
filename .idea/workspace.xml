@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e402947c-f927-49c8-adba-5cf8679561ea" name="Default" comment="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)&#10;Подчищены некоторые code warnings, errors">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/New Text Document.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.dropdown.js.!sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/modernizr.custom.63321.js.!sync" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/warning.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TM-SKAT.iml" afterPath="$PROJECT_DIR$/.idea/TM-SKAT.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+    <list default="true" id="e402947c-f927-49c8-adba-5cf8679561ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,22 +29,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.592592" vertical-offset="13073" max-vertical-offset="13590">
-              <caret line="896" column="22" selection-start-line="896" selection-start-column="22" selection-end-line="896" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.53578335" vertical-offset="10823" max-vertical-offset="13665">
+              <caret line="740" column="26" selection-start-line="740" selection-start-column="26" selection-end-line="740" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.79310346" vertical-offset="7321" max-vertical-offset="8025">
-              <caret line="462" column="28" selection-start-line="462" selection-start-column="28" selection-end-line="462" selection-end-column="28" />
-              <folding />
+            <state vertical-scroll-proportion="-3.2156863" vertical-offset="5881" max-vertical-offset="8025">
+              <caret line="403" column="113" selection-start-line="403" selection-start-column="113" selection-end-line="403" selection-end-column="113" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -378,7 +374,7 @@
       <updated>1419985477168</updated>
       <workItem from="1419985477717" duration="1558000" />
       <workItem from="1420597505344" duration="754000" />
-      <workItem from="1420600384750" duration="1287000" />
+      <workItem from="1420600384750" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary=".service-spacer-triangle added to styles">
       <created>1420600319738</created>
@@ -386,11 +382,17 @@
       <option name="project" value="LOCAL" />
       <updated>1420600319738</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Блок №7(“Компания скат”) и №8 (информация из двух колонок) (треугольник)&#10;Подчищены некоторые code warnings, errors">
+      <created>1420606821747</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1420606821747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3599000" />
+    <option name="totallyTimeSpent" value="4033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -469,7 +471,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8055">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -485,7 +491,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6375" max-vertical-offset="8055">
           <caret line="425" column="45" selection-start-line="425" selection-start-column="45" selection-end-line="425" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2156863" vertical-offset="5881" max-vertical-offset="8025">
+          <caret line="403" column="113" selection-start-line="403" selection-start-column="113" selection-end-line="403" selection-end-column="113" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
@@ -494,21 +519,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.592592" vertical-offset="13073" max-vertical-offset="13590">
-          <caret line="896" column="22" selection-start-line="896" selection-start-column="22" selection-end-line="896" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.53578335" vertical-offset="10823" max-vertical-offset="13665">
+          <caret line="740" column="26" selection-start-line="740" selection-start-column="26" selection-end-line="740" selection-end-column="26" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.79310346" vertical-offset="7321" max-vertical-offset="8025">
-          <caret line="462" column="28" selection-start-line="462" selection-start-column="28" selection-end-line="462" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
   </component>

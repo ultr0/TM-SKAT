@@ -738,6 +738,11 @@ article td {
 	font-size: 20px;
 	margin-top: -47px;
 	border-radius: 3px;
+	text-decoration: none;
+}
+#compare2 .compare-anchor > p {
+	border-bottom: 2px dashed #000;
+	display: inline;
 }
 
 #company{

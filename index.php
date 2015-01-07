@@ -401,7 +401,7 @@
 				</tr>
 				<tr>
 					<td>
-						<a class="compare-anchor centered" href="#compare">Сравнить эти модели между собой</a>
+						<a class="compare-anchor centered" href="#compare"><p>Сравнить эти модели между собой</p></a>
 					</td>
 					<td>
 					</td>
